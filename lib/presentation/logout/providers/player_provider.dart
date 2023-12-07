@@ -7,7 +7,7 @@ class PlayerProvider extends DioClient {
     // Specify the parameters
     Map<String, dynamic> queryParameters = {
       'page': pageKey,
-
+/**/
     };
     return getBaseApi(
       url: NetworkAPI.playerListBaseApi,
