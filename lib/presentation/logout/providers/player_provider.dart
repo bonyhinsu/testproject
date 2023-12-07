@@ -11,6 +11,7 @@ class PlayerProvider extends DioClient {
     return getBaseApi(
       url: NetworkAPI.playerListBaseApi,
       queryParameters: queryParameters,
+      /**/
     );
   }
 }
